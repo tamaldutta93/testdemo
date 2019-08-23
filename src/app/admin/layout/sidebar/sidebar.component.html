@@ -1,0 +1,81 @@
+<div class="sidebar" data-color="azure" data-background-color="white" data-image="./assets/img/sidebar-1.jpg">
+  <!--
+    Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+    Tip 2: you can also add an image using data-image tag
+  -->
+  <div class="logo">
+    <a href="javascript:void(0)" class="simple-text logo-normal">
+      Admin Panel
+    </a>
+  </div>
+
+<!-- Sidebar Dropdown -->
+
+
+
+<!-- sidebar dropdown -->
+  <hr>
+  <div class="sidebar-wrapper">
+    <ul class="nav">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/', 'admin', 'dashboard']">
+          <i class="material-icons">dashboard</i>
+          <p>Dashboard</p>
+        </a>
+      </li>
+      <li class="nav-item " routerLinkActive="active">
+        <!--  -->
+        <a class="nav-link" routerLinkActive="active" [routerLink]="['/', 'admin', 'users']">
+          <i class="material-icons">person</i>
+          <p>User Management</p>
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" >
+          <i class="material-icons">person</i>
+          <p>Page Management</p>
+          <ul class="nav drodown">
+            <li class="nav-item ">
+              <a class="nav-link" >
+                <i class="material-icons">person</i>
+                <p>Page Management</p>
+              </a>
+              </li>
+          </ul>
+        </a>
+      </li>
+
+      <!-- <li class="nav-item ">
+        <a class="nav-link" href="./tables.html">
+          <i class="material-icons">content_paste</i>
+          <p>Table List</p>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./typography.html">
+          <i class="material-icons">library_books</i>
+          <p>Typography</p>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./icons.html">
+          <i class="material-icons">bubble_chart</i>
+          <p>Icons</p>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./map.html">
+          <i class="material-icons">location_ons</i>
+          <p>Maps</p>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./notifications.html">
+          <i class="material-icons">notifications</i>
+          <p>Notifications</p>
+        </a>
+      </li> -->
+    </ul>
+  </div>
+</div>

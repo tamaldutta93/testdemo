@@ -1,0 +1,4 @@
+lazy module guide
+-----------------
+1. https://dev.to/saigowthamr/how-to-implement-lazy--loading-in-angular-6-3ple
+2.https://www.concretepage.com/angular-2/angular-module-loading-eager-lazy-and-preloading

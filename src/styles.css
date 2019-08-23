@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "assets/css/material-dashboard.css";
+@import "assets/demo/demo.css";
+/* @import "assets/css/bootstrap.css"; */
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css";
